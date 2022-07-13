@@ -1,0 +1,16 @@
+<?xml version="1.0"?><!DOCTYPE pdf PUBLIC "-//big.faceless.org//report" "report-1.1.dtd">
+<pdf>
+    <body>
+<sticky><table border="0" cellpadding="1" cellspacing="1" style="width:33%;" ><tr><td valign="top"></sticky>
+IMS LOGO
+<br>${companyinformation.name}
+<br>${companyinformation.address}
+<sticky></td><td valign="top"></sticky>
+ Table  2
+<br>Phone: 800-537-5375
+<br>Fax: 888-288-6900
+<br>Email: ${companyinformation.email}
+<br>Website: ${companyinformation.url}
+<sticky></td></tr></table></sticky>
+    </body>
+</pdf>
