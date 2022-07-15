@@ -25,6 +25,11 @@ h1{
     padding: 75px;
     text-align: center;
 }
+div.about-me p {
+  font-family: 'Poiret One', sans-serif;
+
+}
+
 .social-media{
     padding: 5px;
     text-align: center;
