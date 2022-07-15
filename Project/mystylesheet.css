@@ -1,16 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poiret+One&display=swap');
 body{
-    background-image: url(Documents/GitHub/Portfolio/images/pinto-art-EydnY2Yfd3U-unsplash.jpg);
-    background-size: 79%;
+    background-image: url(Documents/GitHub/Portfolio/Project/images/pinto-art-EydnY2Yfd3U-unsplash.jpg);
+    background-size: 2000px;
     /* LOOKS WEIRD font-family: 'Poiret One', cursive;*/
     color: rgb(255, 240, 255);
     font-family: 'Orbitron', sans-serif;
     padding: 5px;
     margin: 5px;
 }
+.head {
+  font-family: 'Orbitron', sans-serif;
+  /*width: 100px;
+  height: 100px;
+  background-color: rgb(90, 178, 255);
+  transition: width 5s;*/
+}
+h1{
+  font-family: 'Orbitron', sans-serif;
+}
+
 .about-me {
+  font-family: 'Poiret One', cursive;
     /*border: 3px solid black;*/
-    font-family: 'Poiret One', cursive;
 
     padding: 75px;
     text-align: center;
@@ -20,14 +30,18 @@ body{
     text-align: center;
 }
 
-nav {
+nav { 
     text-align: center;
 }
 .navigation a:hover{
+    top: -5px;
     background-color: rgb(255, 175, 244);
-    border-radius: 15px 50px 65px;
+    border-radius: 76px 34px 65px;
 }
 .navigation a{
+    position: relative;
+    top: 0px;
+    transition: 0.3s;
     text-decoration: none;
     color: aliceblue;
     border-width: 25px;
