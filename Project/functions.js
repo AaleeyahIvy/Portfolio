@@ -5,4 +5,4 @@ function qualityGenrtr(qualities) {
 function interestGenrtr(interests) {
     //
 }
-$()
+$()  //Use Jquery???
