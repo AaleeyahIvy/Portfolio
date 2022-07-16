@@ -1,9 +1,10 @@
 body{
+    font-family: 'Orbitron', sans-serif;
     background-image: url(images/pinto-art-EydnY2Yfd3U-unsplash.jpg);
     background-size: 2000px;
     /* LOOKS WEIRD font-family: 'Poiret One', cursive;*/
     color: rgb(255, 240, 255);
-    font-family: 'Orbitron', sans-serif;
+    
     padding: 5px;
     margin: 5px;
 }
