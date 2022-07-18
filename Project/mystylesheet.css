@@ -8,19 +8,18 @@ body{
     margin: 5px;
 }
 .head {
-  font-family: 'Orbitron', sans-serif;
+  
   /*width: 100px;
   height: 100px;
   background-color: rgb(90, 178, 255);
   transition: width 5s;*/
 }
 h1{
-  font-family: 'Orbitron', sans-serif;
-}
+  font-family: 'Orbitron', sans-serif;}
 
 .about-me {
-  font-family: 'Poiret One', cursive;
-    /*border: 3px solid black;*/
+  font-family: 'Poiret', cursive;
+   /* border: 3px solid black;*/
 
     padding: 75px;
     text-align: center;
