@@ -2,31 +2,18 @@ body{
     background-image: url(images/pinto-art-EydnY2Yfd3U-unsplash.jpg);
     background-size: 2000px;
     /* LOOKS WEIRD font-family: 'Poiret One', cursive;*/
-    color: rgb(255, 240, 255);
+    color: rgb(255, 255, 255);
     font-family: 'Orbitron', sans-serif;
     padding: 5px;
     margin: 5px;
 }
-.head {
-  
-  /*width: 100px;
-  height: 100px;
-  background-color: rgb(90, 178, 255);
-  transition: width 5s;*/
-}
-h1{
-  font-family: 'Orbitron', sans-serif;}
 
 .about-me {
-  font-family: 'Poiret', cursive;
+    font-family: 'Poiret One', cursive;
    /* border: 3px solid black;*/
 
     padding: 75px;
     text-align: center;
-}
-div.about-me p {
-  font-family: 'Poiret One', sans-serif;
-
 }
 
 .social-media{
@@ -52,9 +39,7 @@ nav {
     padding: 5px;
     margin: 10px;
 }
-.intro {
-    font-family: 'Orbitron', sans-serif;
-}
+
 li{
     padding: 5px;
     margin: 5px;
@@ -86,10 +71,6 @@ li{
     box-sizing: border-box;
   }
   
-  body {
-    color: rgb(255, 255, 255);
-    font-family:'Orbitron' sans-serif;
-  }
   
   /* Float four columns side by side */
   .column {
