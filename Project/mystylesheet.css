@@ -105,3 +105,12 @@ li{
     text-align: center;
     background-color: #f1f1f100;
   }
+.skills {
+  font-size: small;
+  position: absolute;
+  width: 50%;
+}
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
