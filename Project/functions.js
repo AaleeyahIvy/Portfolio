@@ -5,4 +5,14 @@ function qualityGenrtr(qualities) {
 function interestGenrtr(interests) {
     //
 }
-$()  //Use Jquery???
+$(".weatherwidget-io").click(function(){
+    $('a').hide();
+}); //HIDE JQUERY
+$(".weatherwidget-io").click(function(){
+    $('a').show();
+}); 
+
+
+
+
+//Use REACT???
