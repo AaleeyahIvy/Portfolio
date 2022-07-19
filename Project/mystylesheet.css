@@ -108,9 +108,35 @@ li{
 .skills {
   font-size: small;
   position: absolute;
-  width: 50%;
+  width: 25%;
 }
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+@keyframes htmlloadbar {
+  0% {width: 0%; background-color: #e683ff;}
+  100% {width: 90%; background-color: #e683ff;}
+}
+@keyframes cssloadbar {
+  0% {width: 0%; background-color: #e683ff;}
+  100% {width: 80%; background-color: #e683ff;}
+}
+@keyframes jsloadbar {
+  0% {width: 0%; background-color: #e683ff;}
+  100% {width: 65%; background-color: #e683ff;}
+}
+@keyframes phploadbar {
+  0% {width: 0%; background-color: #e683ff;}
+  100% {width: 35%; background-color: #e683ff;}
+}
+@keyframes csharploadbar {
+  0% {width: 0%; background-color: #e683ff;}
+  100% {width: 75%; background-color: #e683ff;}
+}
+@keyframes javaloadbar {
+  0% {width: 0%; background-color: #e683ff;}
+  100% {width: 50%; background-color: #e683ff;}
+}
+.html { animation: htmlloadbar 9s; width: 90%; background-color: #e683ff;}
+.css {animation: cssloadbar 8s; width: 80%; background-color: #e683ff;}
+.js {animation: jsloadbar 7s; width: 65%; background-color: #e683ff;}
+.php {animation: phploadbar 4s; width: 35%; background-color: #e683ff;}
+.csharp{animation: csharploadbar 8s; width: 75%; background-color: #e683ff;}
+.java{animation: javaloadbar 5s; width: 50%; background-color: #e683ff;}
