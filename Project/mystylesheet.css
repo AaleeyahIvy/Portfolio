@@ -128,11 +128,11 @@ li{
 }
 @keyframes sassloadbar {
   0% {width: 0%; background-color: #e683ff;}
-  100% {width: 15%; background-color: #e683ff;}
+  100% {width: 30%; background-color: #e683ff;}
 }
 @keyframes reactloadbar {
   0% {width: 0%; background-color: #e683ff;}
-  100% {width: 10%; background-color: #e683ff;}
+  100% {width: 25%; background-color: #e683ff;}
 }
 @keyframes aspnetloadbar {
   0% {width: 0%; background-color: #e683ff;}
@@ -165,8 +165,8 @@ li{
 .sql {animation: mysqlloadbar 7s; width: 65%; background-color: #e683ff;}
 .apache {animation: apacheloadbar 3s; width: 30%; background-color: #e683ff;}
 .jquery {animation: jqueryloadbar 6s; width: 60%; background-color: #e683ff;}
-.sass{animation: sassloadbar 5s; width: 15%; background-color: #e683ff;}
-.react{animation: reactloadbar 5s; width: 10%; background-color: #e683ff;}
+.sass{ height: 24px; animation: sassloadbar 5s; width: 30%; background-color: #e683ff;}
+.react{ height: 24px; animation: reactloadbar 5s; width: 25%; background-color: #e683ff;}
 .asp { animation: aspnetloadbar 7s; width: 70%; background-color: #e683ff;}
 .boot {animation: bootstraploadbar 6s; width: 55%; background-color: #e683ff;}
 .krita {animation: kritaloadbar 10s; width: 96%; background-color: #e683ff;}
