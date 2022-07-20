@@ -161,12 +161,18 @@ li{
 .php {animation: phploadbar 4s; width: 35%; background-color: #e683ff;}
 .csharp{animation: csharploadbar 8s; width: 75%; background-color: #e683ff;}
 .java{animation: javaloadbar 5s; width: 50%; background-color: #e683ff;}
-.nodejs { animation: htmlloadbar 9s; width: 90%; background-color: #e683ff;}
-.sql {animation: cssloadbar 8s; width: 80%; background-color: #e683ff;}
-.apache {animation: jsloadbar 7s; width: 65%; background-color: #e683ff;}
-.jquery {animation: phploadbar 4s; width: 35%; background-color: #e683ff;}
-.sass{animation: csharploadbar 8s; width: 75%; background-color: #e683ff;}
-.java{animation: javaloadbar 5s; width: 50%; background-color: #e683ff;}
+.nodejs { animation: nodejsloadbar 5s; width: 45%; background-color: #e683ff;}
+.sql {animation: mysqlloadbar 7s; width: 65%; background-color: #e683ff;}
+.apache {animation: apacheloadbar 3s; width: 30%; background-color: #e683ff;}
+.jquery {animation: jqueryloadbar 6s; width: 60%; background-color: #e683ff;}
+.sass{animation: sassloadbar 5s; width: 15%; background-color: #e683ff;}
+.react{animation: reactloadbar 5s; width: 10%; background-color: #e683ff;}
+.asp { animation: aspnetloadbar 7s; width: 70%; background-color: #e683ff;}
+.boot {animation: bootstraploadbar 6s; width: 55%; background-color: #e683ff;}
+.krita {animation: kritaloadbar 10s; width: 96%; background-color: #e683ff;}
+.adobe {animation: illustratorloadbar 4s; width: 40%; background-color: #e683ff;}
+.figma{animation: figmaloadbar 4s; width: 40%; background-color: #e683ff;}
+
 /*** SCROLL BAR***/
 ::-webkit-scrollbar {
   width: 20px;
