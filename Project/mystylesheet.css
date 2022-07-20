@@ -192,3 +192,7 @@ li{
 ::-webkit-scrollbar-thumb:hover {
   background-color: #c537e9;
 }
+.active, .btn:hover {
+  background-color: rgb(255, 175, 244);
+  color: white;
+}

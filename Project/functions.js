@@ -1,18 +1,11 @@
-/*Create the quality generator*/
-function qualityGenrtr(qualities) {
-    const quality = ["motivated", "smart","determined","creative"]
+var btns = document.getElementsByClassName("button");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
 }
-function interestGenrtr(interests) {
-    //
-}
-$(".weatherwidget-io").click(function(){
-    $('a').hide();
-}); //HIDE JQUERY
-$(".weatherwidget-io").click(function(){
-    $('a').show();
-}); 
-
-
 
 
 //Use REACT???
