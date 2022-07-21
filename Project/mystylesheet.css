@@ -7,7 +7,9 @@ body{
     padding: 5px;
     margin: 5px;
 }
-
+footer {
+  text-align: center;
+}
 .about-me {
     font-family: 'Poiret One', cursive;
    /* border: 3px solid black;*/
