@@ -7,17 +7,16 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 */
-function isMarried (){
-  const today = new Date()
-  const date = new Date(2022/9/11)
-  messageOne = "My amazing husband:&nbsp;&nbsp;Austin Kilgore helped me with the server,&nbsp; &nbsp;thank you.";
-  messageTwo = "My amazing future husband:&nbsp;&nbsp;Austin Kilgore helped me with the server,&nbsp; &nbsp;thank you.";
-  if (today === 9/11/2022){
-   document.getElementsByClassName("message") = messageOne;
-  } else{
-    document.getElementsByClassName("message") = messageTwo;
-  }
+function isMarried() {
+  const today = new Date();
+ const date = new Date("09/11/2022");
+ messageOne = "My amazing husband:&nbsp;&nbsp;Austin Kilgore helped me with the server,&nbsp; &nbsp;thank you.";
+ messageTwo = "My amazing future husband:&nbsp;&nbsp;Austin Kilgore helped me with the server,&nbsp; &nbsp;thank you.";
+ if (today >= date){
+  document.write(messageOne);
+ } else{
+   document.write(messageTwo);
+ }
 }
-
 
 //Use REACT???
