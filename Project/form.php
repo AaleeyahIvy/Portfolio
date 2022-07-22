@@ -1,34 +1,20 @@
 <?php
-// define variables and set to empty values
-$nameErr = $emailErr = $genderErr = "";
-$name = $email = $comment = "";
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["name"])) {
-    $nameErr = "Name is required";
-  } else {
-    $name = test_input($_POST["name"]);
-    // check if name only contains letters and whitespace
-    if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-      $nameErr = "Only letters and white space allowed";
+    // get the data from the form
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $phone = filter_input(INPUT_POST, 'phone');
+    $heard_from = filter_input(INPUT_POST, 'heard_from');
+    if($heard_from == NULL){
+        $heard_from = 'Unknown';
     }
-  }
-  
-  if (empty($_POST["email"])) {
-    $emailErr = "Email is required";
-  } else {
-    $email = test_input($_POST["email"]);
-    // check if e-mail address is well-formed
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      $emailErr = "Invalid email format";
+    $want_updates = filter_input(INPUT_POST, 'want_updates');
+    if(isset($_POST['want_updates'])){
+        $want_updates = 'Yes';
+    } else {
+        $want_updates = 'No';
     }
-  }
-    
-  if (empty($_POST["comment"])) {
-    $comment = "";
-  } else {
-    $comment = test_input($_POST["comment"]);
-  }
+    $contact_via = filter_input(INPUT_POST, 'contact_via');
+    $comments = filter_input(INPUT_POST, 'comments');
+    $comments = nl2br($comments, false);
 
 function test_input($data) {
   $data = trim($data);
@@ -37,3 +23,33 @@ function test_input($data) {
   return $data;
 }
 ?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" type="text/css" href="mystylesheet.css"/>
+</head>
+<body>
+    <main>
+        <h1>Account Information</h1>
+
+        <label>Email Address:</label>
+        <span><?php echo htmlspecialchars($email);?></span><br>
+
+        <label>Phone Number:</label>
+        <span><?php echo htmlspecialchars($phone);?></span><br>
+
+        <label>Heard From:</label>
+        <span><?php echo $heard_from;?></span><br>
+
+        <label>Send Updates:</label>
+        <span><?php echo $want_updates;?></span><br>
+
+        <label>Contact Via:</label>
+        <span><?php echo $contact_via;?></span><br><br>
+
+        <span>Comments:</span><br>
+        <span><?php echo $comments;?></span><br>        
+    </main>
+</body>
+</html>
