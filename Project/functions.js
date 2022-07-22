@@ -7,16 +7,5 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 */
-function isMarried() {
-  const today = new Date();
- const date = new Date("09/11/2022");
- messageOne = "My amazing husband:&nbsp;&nbsp;Austin Kilgore helped me with the server,&nbsp; &nbsp;thank you.";
- messageTwo = "My amazing future husband:&nbsp;&nbsp;Austin Kilgore helped me with the server,&nbsp; &nbsp;thank you.";
- if (today >= date){
-  document.write(messageOne);
- } else{
-   document.write(messageTwo);
- }
-}
 
 //Use REACT???
