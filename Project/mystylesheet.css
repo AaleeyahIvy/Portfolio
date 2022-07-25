@@ -198,3 +198,22 @@ li{
   background-color: rgb(255, 175, 244);
   color: white;
 }
+.message {
+  position: relative;
+  font-size: 25px;
+}
+
+.message .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2px;
+  padding-right: 0.05px;
+  padding-bottom: 0.1px;
+  overflow: hidden;
+}
+
+.message .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1px;
+}
