@@ -37,6 +37,7 @@ nav {
     border-width: 25px;
     padding: 5px;
     margin: 10px;
+    text-shadow: 2px 2px 2px black;
 }
 li{
     padding: 5px;
@@ -202,3 +203,11 @@ li{
   display: inline-block;
   line-height: 1px;
 } 
+.btn-outline-dark{ 
+  background: white;
+  color: black;
+}
+.btn-outline-dark:hover{ 
+  background: white;
+  color: black;
+}
