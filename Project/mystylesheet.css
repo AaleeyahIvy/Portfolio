@@ -180,10 +180,6 @@ li{
 ::-webkit-scrollbar-thumb:hover {
   background-color: #c537e9;
 }
-.active, .btn:hover {
-  background-color: rgb(255, 175, 244);
-  color: white;
-}
 .message {
   position: relative;
   font-size: 25px;
@@ -203,11 +199,3 @@ li{
   display: inline-block;
   line-height: 1px;
 } 
-.btn-outline-dark{ 
-  background: white;
-  color: black;
-}
-.btn-outline-dark:hover{ 
-  background: white;
-  color: black;
-}
