@@ -41,19 +41,6 @@ session_start();
             <a class="button" href="files/myupdatedresume.pdf" download target="_blank">Resume</a>
         </nav>
     </div>
-<div id="loader">
-  <svg class="background-layer" viewBox='-14 -7 28 14' xmlns='http://www.w3.org/2000/svg'>
-      <circle r='6' />
-      <path d='M0 6
-      A6 6 0 0 1 0-6
-      A3 3 0 0 1 0 0
-      A3 3 0 0 0 0 6
-      M0 2
-      A1 1 0 0 1 0 4
-      A1 1 0 0 1 0 2' fill='#fff' />
-      <circle r='1' cy='-3' />
-  </svg>
-</div>
 <div style="display:none;" id="myDiv" class="col-12 animate-bottom">
   <h1>Contact me about my work!</h1>
   <form action="verification/emailInquiry.php" method="post">
