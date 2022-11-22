@@ -1,5 +1,4 @@
-Creating my portfolio website using front-end and some back-end technologies such as html, sass/css, js, asp/razor, etc. 
-My fiance has helped me create a domain and server to host my website. We used Cloudflare and Linode.
+Here's my portfolio: Using Linux, Apache, MySQL and PHP. Also containerizing using docker / kubernetes.
 <hr>
 
 The site currently has all my main interests and examples or projects shown:
