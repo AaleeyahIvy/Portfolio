@@ -20,7 +20,7 @@ session_start();
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
     <script type="text/javascript" src="main.js"></script>
-    <title>Yin Yang App</title>
+    <title>Aaleeyah Ivy</title>
 </head>
 <body onload="myFunction()" style="margin:0;">
     <div><!--SUBHEADER OCCUPATION--></div>
@@ -31,7 +31,7 @@ session_start();
             <a class="button" href="art.html">Art</a>
             <a class="button" href="claydhd.html">ClayDHD</a>
             <a class="button" href="contact.html">Contact</a>
-            <a class="button" href="files/myupdatedresume.pdf" download target="_blank">Resume</a>
+            <a class="button" href="files/Resume.docx" download target="_blank">Resume</a>
         </nav>
     </div>
 <div style="display:none;" id="myDiv" class="col-12 animate-bottom">
