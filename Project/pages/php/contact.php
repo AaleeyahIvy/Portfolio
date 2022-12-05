@@ -29,7 +29,7 @@ session_start();
             <a class="button" href="Portfolio.html">About</a>
             <a class="button" class="active" href="projects.html">Projects</a>
             <a class="button" href="art.html">Art</a>
-            <a class="button" href="claydhd.html">ClayDHD</a>
+            <a class="button" href="claydhd.html">Blog</a>
             <a class="button" href="contact.html">Contact</a>
             <a class="button" href="files/Resume.docx" download target="_blank">Resume</a>
         </nav>
