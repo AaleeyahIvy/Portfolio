@@ -205,3 +205,9 @@ li{
   size: 200px 300px;
   padding: 10px;
 }
+.blog {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
