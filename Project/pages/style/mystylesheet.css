@@ -199,3 +199,9 @@ li{
   display: inline-block;
   line-height: 1px;
 } 
+
+.art{
+  float: left;
+  size: 200px 300px;
+  padding: 10px;
+}
