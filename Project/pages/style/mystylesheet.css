@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/dirk-adams-VmXDJWUPnhY-unsplash.jpg);
+    background-image: url(../images/IMG_0032.PNG);
     background-size: 2000px;
     /* LOOKS WEIRD font-family: 'Poiret One', cursive;*/
     color: rgb(255, 255, 255);
@@ -24,7 +24,7 @@ nav {
     text-align: center;
 }
 .navigation a:hover{
-    top: -5px;
+    top: -4px;
     background-color: rgb(255, 175, 244);
     border-radius: 76px 34px 65px;
 }
@@ -212,5 +212,5 @@ li{
   flex-direction: column;
 }
 .header:hover{
-  color: #e683ff;
+  color: rgb(255, 175, 244)
 }
