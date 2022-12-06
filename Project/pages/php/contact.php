@@ -50,6 +50,9 @@ session_start();
     <input type="submit" value="submit">
   </form>
 </div>
+<style>
+  <?php include "style/mystylesheet.css" ?>
+</style>
 <script>
 var myVar;
 function myFunction() {
