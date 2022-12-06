@@ -25,15 +25,15 @@ session_start();
 <body onload="myFunction()" style="margin:0;">
     <div><!--SUBHEADER OCCUPATION--></div>
     <div class="navigation" >
-        <nav> <!--NAV OUTSIDE OF DIV-->
-            <a class="button" href="Portfolio.html">About</a>
-            <a class="button" class="active" href="projects.html">Projects</a>
-            <a class="button" href="art.html">Art</a>
-            <a class="button" href="claydhd.html">Blog</a>
-            <a class="button" href="contact.html">Contact</a>
-            <a class="button" href="files/Resume.docx" download target="_blank">Resume</a>
-        </nav>
-    </div>
+            <nav> <!--NAV OUTSIDE OF DIV-->
+                <a class="button" href="./index.html">About</a>
+                <a class="button" class="active" href="./projects.html">Projects</a>
+                <a class="button" href="./art.html">Art</a>
+                <a class="button" href="./blog.html">Blog</a>
+                <a class="button" href="./php/contact.php">Contact</a>
+                <a class="button" href="files/Resume.docx" download target="_blank">Resume</a>
+            </nav>
+        </div>
 <div style="" id="myDiv" class="col-12 animate-bottom">
   <h1>Contact me about my work!</h1>
   <form action="verification/emailInquiry.php" method="post">
