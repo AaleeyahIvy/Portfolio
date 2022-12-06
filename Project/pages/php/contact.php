@@ -34,7 +34,7 @@ session_start();
             <a class="button" href="files/Resume.docx" download target="_blank">Resume</a>
         </nav>
     </div>
-<div style="display:none;" id="myDiv" class="col-12 animate-bottom">
+<div style="" id="myDiv" class="col-12 animate-bottom">
   <h1>Contact me about my work!</h1>
   <form action="verification/emailInquiry.php" method="post">
     <label for="name">Name:</label>
