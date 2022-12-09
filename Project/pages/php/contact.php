@@ -51,7 +51,7 @@ session_start();
   </form>
 </div>
 <style>
-  <?php include "./style/mystylesheet.css" ?>
+  <?php include "phpstylesheet.css" ?>
 </style>
 <script>
 var myVar;
