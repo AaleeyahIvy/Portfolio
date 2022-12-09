@@ -77,8 +77,8 @@ li{
     display: block;
     margin-bottom: 20px;
   }
-  .col-3 p{
-    
+  .post {
+   width: 100%;
   }
 }
 /* Style the counter cards */
@@ -224,7 +224,8 @@ li{
 .header:hover{
   color: rgb(255, 175, 244)
 }
-.p{
+.post{
+  width: 25%;
   background-color: #e683ff4d;
   border-radius: 5px;
 }
