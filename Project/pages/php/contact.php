@@ -110,6 +110,9 @@ nav {
     margin: 10px;
     text-shadow: 2px 2px 2px black;
 }
+input [type=text], input [type=email] {
+    border=radius: 15px;
+}
 li{
     padding: 5px;
     margin: 5px;
