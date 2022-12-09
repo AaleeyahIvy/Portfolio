@@ -71,14 +71,16 @@ li{
     margin-bottom: 20px;
   }
 }
-@media screen and (max-height: 950px) {
+@media screen and (max-width: 450px) {
   .column {
     width: 100%;
     display: block;
     margin-bottom: 20px;
   }
   .post {
-   width: 100%;
+    background-color: #e683ff4d;
+    border-radius: 5px;
+    width: 100%;
   }
 }
 /* Style the counter cards */
