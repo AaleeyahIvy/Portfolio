@@ -111,9 +111,14 @@ nav {
     margin: 10px;
     text-shadow: 2px 2px 2px black;
 }
-input [type=text], input [type=email], textarea {
+input[type=text], input[type=email], textarea {
     padding: 5px;
     border-radius: 15px;
+}
+input[type=submit]{
+    background-color: rgb(255, 175, 244);
+    border-radius: 3px;
+    color: white;
 }
 li{
     padding: 5px;
