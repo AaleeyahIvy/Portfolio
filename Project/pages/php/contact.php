@@ -30,7 +30,7 @@ session_start();
                 <a class="button" class="active" href="./projects.html">Projects</a>
                 <a class="button" href="./art.html">Art</a>
                 <a class="button" href="./blog.html">Blog</a>
-                <a class="button" href="./php/contact.php">Contact</a>
+                <a class="button" href="contact.php">Contact</a>
                 <a class="button" href="files/Resume.docx" download target="_blank">Resume</a>
             </nav>
         </div>

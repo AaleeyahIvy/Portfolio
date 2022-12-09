@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/IMG_0032.PNG);
+    background-image: url(./images/IMG_0032.PNG);
     background-size: 2000px;
     /* LOOKS WEIRD font-family: 'Poiret One', cursive;*/
     color: rgb(255, 255, 255);
