@@ -21,6 +21,7 @@ session_start();
     <title>Aaleeyah Ivy</title>
 </head>
 <body onload="myFunction()" style="margin:0;">
+<header style="text-align: center;">My Name Is Aaleeyah Ivy</header>
     <div><!--SUBHEADER OCCUPATION--></div>
     <div class="navigation" >
             <nav> <!--NAV OUTSIDE OF DIV-->
@@ -32,7 +33,7 @@ session_start();
                 <a class="button" href="../files/Resume.docx" download target="_blank">Resume</a>
             </nav>
         </div>
-<div style="" id="myDiv" class="col-12 animate-bottom">
+<div style="display:flex flex-direction: column; align-items: center;" id="myDiv" class="col-12 animate-bottom">
   <h1>Contact me about my work!</h1>
   <form action="verification/emailInquiry.php" method="post">
     <label for="name">Name:</label>
@@ -75,6 +76,7 @@ function showPage() {
     font-family: 'Nunito', sans-serif;
     padding: 5px;
     margin: 5px;
+    text-align: center;
 }
 footer {
   text-align: center;
