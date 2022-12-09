@@ -15,7 +15,7 @@ session_start();
         crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha384-fXdIufVbE9aU7STmdk/DWK0imNOozId9fTwzM/gi0NfPjphEIC3gq0M760UnsKVy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/mystylesheet.css">
+    <link rel="stylesheet" href="phpstylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Thasadith&display=swap" rel="stylesheet">
