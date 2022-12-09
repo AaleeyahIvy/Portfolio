@@ -42,9 +42,10 @@ session_start();
     <input type="text" name="username" id="username">
     <label for="email">Email:</label>
     <input type="email" name="email" id="email">
+    <hr>
     <br>
     <label for="inquiry"></label>
-    <textarea id="inquiry" name="inquiry" placeholder="Ask us something..." style="height:110px;width:635px;"></textarea>
+    <textarea id="inquiry" name="inquiry" placeholder="Ask me something..." style="height:110px;width:635px;"></textarea>
     <br>
     <input type="submit" value="submit">
   </form>
@@ -110,8 +111,9 @@ nav {
     margin: 10px;
     text-shadow: 2px 2px 2px black;
 }
-input [type=text], input [type=email] {
-    border=radius: 15px;
+input [type=text], input [type=email], textarea {
+    padding: 5px;
+    border-radius: 15px;
 }
 li{
     padding: 5px;
