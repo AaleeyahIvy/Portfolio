@@ -89,6 +89,9 @@ li{
   [class*="col-"] {
     width: 100%;
   }
+  .post{
+    width: 100%;
+  }
 }
 /* Style the counter cards */
 .card {
