@@ -91,6 +91,15 @@ li{
   }
   .post{
     width: 100%;
+    background-color: #e683ff4d;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .post{
+    width: 25%;
+    background-color: #e683ff4d;
+    border-radius: 5px;
   }
 }
 /* Style the counter cards */
@@ -235,9 +244,4 @@ li{
 }
 .header:hover{
   color: rgb(255, 175, 244)
-}
-.post{
-  width: 25%;
-  background-color: #e683ff4d;
-  border-radius: 5px;
 }
