@@ -44,7 +44,9 @@ session_start();
     <input type="email" name="email" id="email">
     <hr>
     <br>
-    <label for="inquiry"></label>
+    <label for="subject">Subject:</label>
+    <input type="text" name="subject" id="subject">
+    <label for="inquiry">Message:</label>
     <textarea id="inquiry" name="inquiry" placeholder="Ask me something..." style="height:110px;width:635px;"></textarea>
     <br>
     <input type="submit" value="submit">
