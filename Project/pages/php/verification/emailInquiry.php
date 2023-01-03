@@ -1,3 +1,5 @@
+use PHPMailer\PHPMailer\PHPMailer;
+
 <?php
 $mail = new PHPMailer();
                 $mail->isSMTP();
