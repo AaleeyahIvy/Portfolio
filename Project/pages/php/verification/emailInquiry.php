@@ -1,5 +1,6 @@
 use PHPMailer\PHPMailer\PHPMailer;
-
+ include('../config/db.php');
+    require_once '../vendor/autoload.php';
 <?php
 $mail = new PHPMailer();
                 $mail->isSMTP();
