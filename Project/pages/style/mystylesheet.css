@@ -164,3 +164,7 @@ img{
 .header:hover{
   color: rgb(255, 175, 244)
 }
+footer{
+  position: fixed;
+  bottom: 0px;
+}
