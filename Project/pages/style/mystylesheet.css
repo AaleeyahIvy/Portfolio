@@ -232,7 +232,7 @@ li{
 } 
 
 .art{
-  float: left;
+  align-items: center;
   size: 200px 300px;
   padding: 10px;
 }
@@ -241,6 +241,10 @@ li{
   text-align: center;
   align-items: center;
   flex-direction: column;
+}
+img{
+  padding: 15px;
+  margin: 5px;
 }
 .header:hover{
   color: rgb(255, 175, 244)

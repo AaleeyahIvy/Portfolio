@@ -34,26 +34,66 @@
         <div class="art">
             <header  style="text-align: center;">Here is my Art:</header>
             <h1 class="header" style="text-align:center;">ART</h1>
-            <img src="images/IMG_0390.PNG" width="600px">
-            <img src="images/IMG_0945.PNG" width="600px">
-            <img src="images/IMG_0936.PNG" width="600px">
-            <img src="images/IMG_0933.PNG" width="600px">
-            <img src="images/IMG_0914.PNG" width="600px">
-            <img src="images/IMG_0899.PNG" width="600px">
-            <img src="images/IMG_0890.PNG" width="600px">
-            <img src="images/IMG_0877.PNG" width="600px">
-            <img src="images/IMG_0872.PNG" width="600px">
-            <img src="images/IMG_0864.PNG" width="600px">
-            <img src="images/IMG_0858.PNG" width="600px">
-            <img src="images/IMG_0778.PNG" width="600px">
-            <img src="images/IMG_0719.PNG" width="600px">
-            <img src="images/IMG_0024.PNG" width="600px">
-            <img src="images/IMG_0184.PNG" width="600px">
-            <img src="images/E360930E-D98A-4921-845C-32CAD747E85E.jpg" width="600px">
-            <img src="images/IMG_0142.PNG" width="600px">
-            <img src="images/A56F6052-2ADF-4040-9DC9-4221A9C9856E.jpg" width="600px">
-            <img src="images/IMG_0012.PNG" width="600px">
+        <div class="column">
+            <img src="images/IMG_0390.PNG" width="500">
+            <img src="images/IMG_0945.PNG" width="500">
+            <img src="images/IMG_0936.PNG" width="500">
+            <img src="images/IMG_0933.PNG" width="500">
+            <img src="images/IMG_0914.PNG" width="500">
+        </div>
+        <div class="column">
+            <img src="images/IMG_0899.PNG" width="500">
+            <img src="images/IMG_0890.PNG" width="500">
+            <img src="images/IMG_0877.PNG" width="500">
+            <img src="images/IMG_0872.PNG" width="500">
+            <img src="images/IMG_0864.PNG" width="500">
+        </div>
+        <div class="column">
+            <img src="images/IMG_0858.PNG" width="500">
+            <img src="images/IMG_0778.PNG" width="500">
+            <img src="images/IMG_0719.PNG" width="500">
+            <img src="images/IMG_0024.PNG" width="500">
+            <img src="images/IMG_0184.PNG" width="500">
+            </div>
+            <div class="column">
+            <img src="images/E360930E-D98A-4921-845C-32CAD747E85E.jpg" width="500">
+            <img src="images/IMG_0142.PNG" width="500">
+            <img src="images/A56F6052-2ADF-4040-9DC9-4221A9C9856E.jpg" width="500">
+            <img src="images/IMG_0012.PNG" width="500">
+            <img src="images/IMG_0567.PNG" width="500">
+        </div>
         </div>
         <footer>© All Rights Reserved: Aaleeyah Ivy | 2022 </footer>
     </body>
+    <style>
+        .column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+        /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+    </style>
 </html>
