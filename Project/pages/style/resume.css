@@ -1,0 +1,103 @@
+.sidebar {
+color: rgb(45, 45, 45);
+padding: 10px;
+margin: 5px;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 395px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #d5a5e6; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.main {
+    display: inline-block;
+    text-align: left;
+    margin-left: 398px; /* Same as the width of the sidebar */
+    padding: 5px 10px;
+    
+  }
+  li{
+    padding: 5px;
+    margin: 5px;
+    list-style:circle;
+    list-style-type:circle;
+}
+nav { 
+    text-align: center;
+}
+.navigation a:hover{
+    top: -4px;
+    background-color: rgb(255, 175, 244);
+    border-radius: 76px 34px 65px;
+}
+.navigation a{
+    position: relative;
+    top: 0px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: aliceblue;
+    border-width: 25px;
+    padding: 5px;
+    margin: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+.section{
+  font-weight: bolder;
+  text-align: center;
+  border: solid #955bab;
+  background-color: #955bab;
+}
+.title{
+  font-weight: bold;
+  color: black;
+}
+.msection{
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 25px;
+ font-weight: bold;
+}
+.mini-sidebar{
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 4 ; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 45;
+}
+.date{
+  font-size: 13px;
+}
+.main-2{
+  margin-left: 395px;
+  padding: 5px 10px;
+}
+nav { 
+  text-align: right;
+}
+.navigation a:hover{
+  top: -4px;
+  background-color: rgb(255, 175, 244);
+  border-radius: 76px 34px 65px;
+}
+.navigation a{
+  text-align: right;
+  transition: 0.3s;
+  text-decoration: none;
+  color: aliceblue;
+  border-width: 25px;
+  padding: 5px;
+  margin: 10px;
+  text-shadow: 2px 2px 2px black;
+}
+body{
+  text-align: right;
+  font-family: Helvetica, sans-serif;
+}
