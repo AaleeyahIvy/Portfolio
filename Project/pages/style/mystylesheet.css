@@ -4,8 +4,8 @@ body{
     /* LOOKS WEIRD font-family: 'Poiret One', cursive;*/
     color: rgb(255, 255, 255);
     font-family: 'Nunito', sans-serif;
-    padding: 5px;
-    margin: 5px;
+    padding: 18px;
+    margin: 18px;
 }
 footer {
   text-align: center;
