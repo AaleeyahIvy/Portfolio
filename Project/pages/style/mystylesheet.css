@@ -97,7 +97,7 @@ li{
 }
 @media only screen and (max-width: 1100px){
   .post{
-    width: 25%;
+    width: 70%;
     background-color: #e683ff4d;
     border-radius: 5px;
   }
@@ -171,4 +171,6 @@ footer{
 .post{
   margin: 15px;
   padding:10px;
+  background-color: #e683ff4d;
+  border-radius: 5px;
 }
