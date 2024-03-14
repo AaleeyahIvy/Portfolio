@@ -1,0 +1,176 @@
+body{
+    background-image: url(../images/IMG_0032.PNG);
+    background-size: 2000px;
+    /* LOOKS WEIRD font-family: 'Poiret One', cursive;*/
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+    padding: 18px;
+    margin: 18px;
+}
+footer {
+  text-align: center;
+}
+.about-me {
+    font-family: 'Poiret One', cursive;
+   /* border: 3px solid black;*/
+    padding: 75px;
+    text-align: center;
+}
+.social-media{
+    padding: 5px;
+    text-align: center;
+}
+nav { 
+    text-align: center;
+}
+.navigation a:hover{
+    top: -4px;
+    background-color: rgb(255, 175, 244);
+    border-radius: 76px 34px 65px;
+}
+.navigation a{
+    position: relative;
+    top: 0px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: aliceblue;
+    border-width: 25px;
+    padding: 5px;
+    margin: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+li{
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    list-style-type: none;
+    display: inline-flex;
+}
+* {
+    box-sizing: border-box;
+  }
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  .post{
+    width: 100%;
+    background-color: #e683ff4d;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .post{
+    width: 70%;
+    background-color: #e683ff4d;
+    border-radius: 5px;
+  }
+}
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(150, 111, 111, 0.589);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f165;
+}
+
+/*** SCROLL BAR***/
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #e683ff;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c537e9;
+}
+.message {
+  position: relative;
+  font-size: 25px;
+}
+
+.message .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2px;
+  padding-right: 0.05px;
+  padding-bottom: 0.1px;
+  overflow: hidden;
+}
+
+.message .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1px;
+} 
+
+.art{
+  align-items: center;
+  size: 200px 300px;
+  padding: 10px;
+}
+.blog {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+img{
+  padding: 15px;
+  margin: 5px;
+}
+.header:hover{
+  color: rgb(255, 175, 244)
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+}
+.post{
+  margin: 15px;
+  padding:10px;
+  background-color: #e683ff4d;
+  border-radius: 5px;
+}
